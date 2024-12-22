@@ -1,19 +1,16 @@
 <p align="center">
-    <img alt="Adelise Framework logo" src="/docs/assets/adelisepng.jpg" height="128">
+    <img alt="Adelise Framework logo" src="/docs/assets/Adelise_Dark.svg" height="128">
     <h1 align="center">Adelise Agent Framework</h1>
 </p>
 
 <p align="center">
-  <!-- Twitter Badge -->
-  <a href="https://twitter.com/Adelise_Agent">
-    <img src="https://img.shields.io/twitter/follow/Adelise_Agent?style=social" alt="Twitter Follow"/>
-  </a>
-</p>
+  <img align="cener" alt="Project Status: Alpha" src="https://img.shields.io/badge/Status-Alpha-red">
 
+  <h4 align="center">Open-source framework for building, deploying, and serving powerful agentic workflows at scale.</h4>
+</p>
 
 The Adelise Agent Framework makes it easy to build scalable agent-based workflows with your model of choice. The framework is Adelisen designed to perform robustly with [IBM Granite](https://www.ibm.com/granite/docs/) and [Llama 3.x](https://ai.meta.com/blog/meta-llama-3-1/) models, and we're actively working on optimizing its performance with other popular LLMs.<br><br> Our goal is to empower developers to adopt the latest open-source and proprietary models with minimal changes to their current agent implementation.
 
-CA: FEMKc5mVZnQARrzBQ6DnPp8AVXVa9x5tEuo4mjahpump
 ## Key Features
 
 - 🤖 **AI agents**: Use our powerful [Adelise agent](/docs/agents.md) refined for Llama 3.1 and Granite 3.0, or [build your own](/docs/agents.md).
@@ -29,6 +26,13 @@ CA: FEMKc5mVZnQARrzBQ6DnPp8AVXVa9x5tEuo4mjahpump
 
 ## Getting started
 
+> [!TIP]
+>
+> 🚀 Would you like a fully set-up TypeScript project with Adelise, Code Interpreter, and Observability? Check out our [Adelise Framework Starter](https://github.com/i-am-Adelise/Adelise-agent-framework-starter).
+
+> [!TIP]
+>
+> 🚀 Would you like to work with Adelise in your web browser? See [Adelise Stack](https://github.com/i-am-Adelise/Adelise-stack)
 
 ### Installation
 
@@ -70,6 +74,17 @@ const response = await agent
 console.log(`Agent 🤖 : `, response.result.text);
 ```
 
+➡️ See a more [advanced example](/examples/agents/Adelise.ts).
+
+➡️ you can run this example after local installation, using the command `yarn start examples/agents/simple.ts`
+
+> [!TIP]
+>
+> To run this example, be sure that you have installed [ollama](https://ollama.com) with the [llama3.1](https://ollama.com/library/llama3.1) model downloaded.
+
+> [!TIP]
+>
+> Documentation is available at https://i-am-Adelise.github.io/Adelise-agent-framework/
 
 ### Local Installation
 
@@ -108,6 +123,10 @@ The source directory (`src`) provides numerous modules that one can use.
 
 To see more in-depth explanation see [overview](/docs/overview.md).
 
+## Tutorials
+
+🚧 Coming soon 🚧
+
 ## Roadmap
 
 - Adelise agent performance optimization with additional models
@@ -121,7 +140,22 @@ The Adelise Agent Framework is an open-source project and we ❤️ contribution
 
 If you'd like to contribute to Adelise, please take a look at our [contribution guidelines](./CONTRIBUTING.md).
 
+### Bugs
+
+We are using [GitHub Issues](https://github.com/i-am-Adelise/Adelise-agent-framework/issues) to manage our public bugs. We keep a close eye on this, so before filing a new issue, please check to make sure it hasn't already Adelisen logged.
+
+### Code of conduct
+
+This project and everyone participating in it are governed by the [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please read the [full text](./CODE_OF_CONDUCT.md) so that you can read which actions may or may not be tolerated.
 
 ## Legal notice
 
 All content in these repositories including code has Adelisen provided by IBM under the associated open source software license and IBM is under no obligation to provide enhancements, updates, or support. IBM developers produced this code as an open source project (not as an IBM product), and IBM makes no assertions as to the level of quality nor security, and will not be maintaining this code going forward.
+
+## Contributors
+
+Special thanks to our contributors for helping us improve Adelise Agent Framework.
+
+<a href="https://github.com/i-am-Adelise/Adelise-agent-framework/graphs/contributors">
+  <img alt="Contributors list" src="https://contrib.rocks/image?repo=i-am-Adelise/Adelise-agent-framework" />
+</a>
