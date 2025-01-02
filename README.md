@@ -1,12 +1,12 @@
 <p align="center">
     <img alt="Adelise Framework logo" src="/docs/assets/adelisepng.jpg" height="128">
-    <h1 align="center">TarsiaAI Agent Framework</h1>
+    <h1 align="center">TalsiaAI Agent Framework</h1>
 </p>
 
 <p align="center">
   <!-- Twitter Badge -->
-  <a href="https://twitter.com/TarsiaAI">
-    <img src="https://img.shields.io/twitter/follow/TarsiaAI?style=social" alt="Twitter Follow"/>
+  <a href="https://twitter.com/TalsiaAI">
+    <img src="https://img.shields.io/twitter/follow/TalsiaAI?style=social" alt="Twitter Follow"/>
   </a>
 </p>
 
